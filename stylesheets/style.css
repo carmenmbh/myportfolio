@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: black
+}
+
+h1{
+  color: white;
+  font-family: 'Rubik', sans-serif;
+  font-size: 80px;
+  padding-left: 110px;
+}
+.menu{
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+p{
+  color: #E8E8E8;
+  font-family: 'Rubik', sans-serif;
+  width: 700px;
+  padding-left: 110PX;
+  font-size: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+li {
+  display: inline-block;
+  padding: 10px 30px;
+}
+
+.box {
+ width: 100%;
+ margin-top: 200px;
+
+}
+
+.arrow {
+  text-align: center;
+  margin-top: 80px;
+
+}
+
+.photo1 {
+  width: 470px;
+  height: 350px;
+  margin-top: 45px;
+  margin-left: 120px;
+}
+
+.photo2 {
+  margin-top: 45px;
+  margin-right: 120px;
+  width: 470px;
+  height: 350px;
+}
+
+
+.content{
+  display: flex;
+  justify-content: space-around;
+
+}
